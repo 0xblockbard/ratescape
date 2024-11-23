@@ -1,7 +1,8 @@
 /node_modules
 /storage/*.key
 /storage/debugbar
-/public/assets/*
+!/public/assets/css/*
+!/public/assets/js/*
 !/public/build
 !/public/storage
 
