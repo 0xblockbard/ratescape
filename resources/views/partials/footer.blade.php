@@ -1,8 +1,8 @@
 
 
 <footer class="bg-gray-800">
-    <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-        <div class="flex justify-center space-x-6 md:order-2">
+    <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8">
+        {{-- <div class="flex justify-center space-x-6 md:order-2"> --}}
 
             {{-- <a href="#" class="text-gray-50 hover:text-gray-900">
                 <span class="sr-only">Twitter</span>
@@ -21,8 +21,8 @@
                 </svg>
             </a> --}}
 
-        </div>
-        <div class="mt-8 md:order-1 md:mt-0 " style="font-family: Permanent Marker;">
+        {{-- </div> --}}
+        <div class="flex mt-8 md:order-1 md:mt-0 text-center justify-center" style="font-family: Permanent Marker;">
             <p class="text-center text-lg text-yellow-300">&copy; 2024. All rights reserved.</p>
         </div>
     </div>

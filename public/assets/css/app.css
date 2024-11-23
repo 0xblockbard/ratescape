@@ -2213,6 +2213,18 @@ select{
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-24{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.px-28{
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
 .pb-16{
   padding-bottom: 4rem;
 }
@@ -3777,6 +3789,9 @@ article img:not([src]) {
   }
   .md\:items-center{
     align-items: center;
+  }
+  .md\:justify-center{
+    justify-content: center;
   }
   .md\:justify-between{
     justify-content: space-between;
