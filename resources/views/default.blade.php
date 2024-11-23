@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Luckiest+Guy&family=Permanent+Marker&display=swap" rel="stylesheet">
 
     {{-- Stylesheets --}}
-    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" >
+    <link rel="stylesheet" href="{{ url('assets/css/app.css') }}" >
 
     {{-- Title --}}
     <title>@yield('title', 'Template')</title>
@@ -42,8 +42,8 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@16.0.0/dist/lazyload.min.js"></script>
 
-    <script src="{{ asset_path('/assets/js/default/default.js') }}"></script>
-    <script src="{{ asset_path('/assets/js/default/lazyLoadAssets.js') }}"></script>
+    <script src="{{ asset('/assets/js/default/default.js') }}"></script>
+    <script src="{{ asset('/assets/js/default/lazyLoadAssets.js') }}"></script>
 
     @yield('scripts')
 

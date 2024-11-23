@@ -188,6 +188,6 @@
 
 @section('scripts')
 
-    <script src="{{ asset_path('/assets/js/pages/home.js') }}"></script>
+    <script src="{{ asset('/assets/js/pages/home.js') }}"></script>
 
 @endsection
