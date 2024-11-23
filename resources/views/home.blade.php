@@ -182,6 +182,15 @@
 {{-- Last Cheese Divider before footer --}}
 <img class="w-full h-10 opacity-70 transform" src="{{ asset('storage/assets/cheese-maze-divider-2-sm.png') }}" />
 
+{{-- Disclaimer Section --}}
+<div class="flex relative flex-col items-center justify-center text-center">
+
+    <div class="bg-gray-800 rounded-lg opacity-80 px-2 pt-8 pb-4 w-full text-2xl text-yellow-300 font-chewy">
+
+        <p>Disclaimer: RAT is a meme coin and its holders are stuck in the rat race. Help them escape! We make no promises of return, except having fun!</p>
+
+    </div>
+</div>
 
 @endsection
 
