@@ -121,7 +121,7 @@
             <ul class="list-disc list-inside tracking-wide text-gray-200 text-lg max-w-2xl space-y-2 mt-4 text-left pl-10">
                 <li>Launch on pump.fun - completed</li>
                 <li>Website - completed</li>
-                <li>Public promotion - to start once socials are ready to go (this channel will also turn public later)</li>
+                <li>Public promotion - to start once socials are ready to go</li>
                 <li>Launch on Raydium - in progress (requires reaching 100k mcap)</li>
             </ul>
         </div>
