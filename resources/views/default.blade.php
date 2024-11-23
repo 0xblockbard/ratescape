@@ -8,9 +8,9 @@
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     {{-- Favicon --}}
-    {{-- <link rel="icon" href="{{ config('app.CF_URL').'/assets/default/favicon/favicon-16x16.png' }}" type="image/x-icon" sizes="16x16">
-    <link rel="icon" href="{{ config('app.CF_URL').'/assets/default/favicon/favicon-32x32.png' }}" type="image/x-icon" sizes="32x32">
-    <link rel="apple-touch-icon" href="{{ config('app.CF_URL').'/assets/default/favicon/apple-touch-icon.png' }}" sizes="180x180"> --}}
+    <link rel="icon" href="{{ asset('storage/assets/favicon/favicon-16x16.png') }}" type="image/x-icon" sizes="16x16">
+    <link rel="icon" href="{{ asset('storage/assets/favicon/favicon-32x32.png')  }}" type="image/x-icon" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{ asset('storage/assets/favicon/apple-touch-icon.png')  }}" sizes="180x180">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,9 +38,6 @@
 
     @include('partials.footer')
 
-    {{-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="   crossorigin="anonymous"></script> --}}
-    {{-- <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"   integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="   crossorigin="anonymous"></script> --}}
-    
     <script src="{{ asset('/assets/js/default/default.js') }}"></script>
 
     @yield('scripts')

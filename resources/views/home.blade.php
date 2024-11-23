@@ -46,7 +46,7 @@
 
         <div id="typed-container" style="margin-top: -100px; px-2 py-2 overflow-visible">
             <p id="typed-intro" class="text-gray-50 text-3xl font-permanentMarket"></p>
-            <h1 id="typed-heading" class="text-gray-50 text-5xl font-bold mb-4 font-permanentMarket"></h1>
+            <h1 id="typed-heading" class="text-gray-50 text-5xl font-bold mt-6 mb-4 font-permanentMarket"></h1>
             <p id="typed-paragraph-1" class="mt-10 text-gray-200 text-lg max-w-2xl font-chewy"></p>
             <p id="typed-paragraph-2" class="mt-4 text-gray-200 text-lg max-w-2xl font-chewy"></p>
             <p id="typed-paragraph-3" class="mt-4 text-gray-200 text-lg max-w-2xl font-chewy"></p>
