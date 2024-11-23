@@ -1,5 +1,6 @@
 /node_modules
 /storage/*.key
+/storage/debugbar
 /public/assets/*
 /vendor
 **/vendor

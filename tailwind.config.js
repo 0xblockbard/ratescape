@@ -216,7 +216,11 @@ module.exports = {
                 'montserrat': ['Montserrat', 'sans-serif'],
                 'bellMt': ['Bell MT', 'sans-serif'],
                 'irishGrover': ['Irish Grover', 'sans-serif'],
-                'electrolize': ['Electrolize', 'sans-serif']
+                'electrolize': ['Electrolize', 'sans-serif'],
+                'permanentMarket': ['Permanent Marker', 'sans-serif'],
+                'bangers': ['Bangers', 'sans-serif'],
+                'luckiestGuy': ['Luckiest Guy', 'sans-serif'],
+                'chewy': ['Chewy', 'sans-serif']
             },
             height: {
                 '10p': '10%',

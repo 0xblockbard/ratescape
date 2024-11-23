@@ -1,44 +1,53 @@
 
-{{-- <nav class="w-full navbar sticky top-0 z-50 border-b shadow-md neon-border" style="background-image: url('{{ asset('storage/assets/background/purple-pattern-bg-navbar.png') }}')"> --}}
-<nav class="w-full navbar sticky top-0 z-50 border-b shadow-md neon-border overflow-hidden">
-    <div class="ml-6 mr-8 mx-auto">
+<nav class="w-full navbar py-4 z-20">
+    <div class="max-w-screen-xl mx-auto">
         <div class="flex justify-between h-16">
             <div class="flex px-2 lg:px-0 w-full">
 
                 <div class="flex items-center font-extrabold">
 
-                    <a href="/" class="text-xl uppercase font-semibold tracking-wide text-white">
-                        RatEscape
+                    <img class="h-14 w-14 rounded-full mr-4" src="{{ asset('storage/assets/rat-escape-sm.png') }}" />
+                    <a href="/" class="text-3xl uppercase font-semibold tracking-wide text-gray-100 hover:text-yellow-200 font-permanentMarket">
+                        Rat Escape
                     </a>
 
                 </div>
-
-            {{-- </div> --}}
-
-            {{-- <div class="py-3 w-30p"> --}}
                 
-                <div class="flex justify-end">
-                    <div class="flex mr-2">
+                <div class="hidden xl:ml-14 xl:flex xl:space-x-6 text-xl text-gray-100 font-chewy transition duration-200 ease-in-out font-permanentMarket">
 
-                        {{-- <img src="{{ asset('storage/assets/nav/top-line-2.png') }}" class="lazy w-60"> --}}
-                        
-                        {{-- <button type="button" class="rounded-md bg-electricblue-600 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-electricblue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-electricblue-600">Connect</button> --}}
-                        
-                    </div>
+                    <a href="#about" 
+                        class="flex flex-row items-center px-1 hover:text-yellow-300 ">
+                        <span>About</span>
+                    </a>
+    
+                    <a href="#escape-plan"
+                        class="flex flex-row items-center px-1 hover:text-yellow-300 ">
+                        <span>Escape Plan</span>
+                    </a>
+                    
+                    <a href="#how" 
+                        class="flex flex-row items-center px-1 hover:text-yellow-300 ">
+                        <span>How to buy</span>
+                    </a>
+
+                    {{-- <a href="#socials" 
+                        class="flex flex-row items-center px-1 hover:text-yellow-300">
+                        <span>Socials</span>
+                    </a> --}}
+    
                 </div>
 
             </div>
 
-{{--            <div class="flex items-center">--}}
-{{--                <div class="flex-shrink-0">--}}
-{{--                    <button type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">--}}
-{{--                        <!-- Heroicon name: solid/plus-sm -->--}}
-{{--                        <svg class="-ml-1 mr-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">--}}
-{{--                            <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd" />--}}
-{{--                        </svg>--}}
-{{--                        <span>New Job</span>--}}
-{{--                    </button>--}}
-{{--                </div>--}}
+           <div class="flex items-center">
+               <div class="flex-shrink-0">
+                    <a href="https://pump.fun/coin/3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump" target="_blank">
+                        <button type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-xl font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 hover:text-yellow-300 hover:border-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 transition duration-300 ease-in-out font-permanentMarket">
+                            <svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4.519 20.008L21 20v-3.5a2 2 0 1 1 0-4V9H4.278"/><path d="m21 9l-9.385-4.992c-2.512.12-4.758 1.42-6.327 3.425C3.865 9.253 3 11.654 3 14.287c0 2.117.56 4.085 1.519 5.721M15 13v.01M8 13v.01M11 16v.01"/></g></svg>
+                            <span>Escape</span>
+                        </button>
+                    </a>
+               </div>
 
 {{--                <div class="hidden md:ml-4 md:flex-shrink-0 md:flex md:items-center">--}}
 {{--                    <button type="button" class="bg-white p-1 rounded-full text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">--}}
@@ -60,7 +69,7 @@
 
 {{--                    </div>--}}
 {{--                </div>--}}
-{{--            </div>--}}
+           </div>
         </div>
 
     </div>

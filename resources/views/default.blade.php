@@ -12,6 +12,10 @@
     <link rel="icon" href="{{ config('app.CF_URL').'/assets/default/favicon/favicon-32x32.png' }}" type="image/x-icon" sizes="32x32">
     <link rel="apple-touch-icon" href="{{ config('app.CF_URL').'/assets/default/favicon/apple-touch-icon.png' }}" sizes="180x180"> --}}
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Luckiest+Guy&family=Permanent+Marker&display=swap" rel="stylesheet">
+
     {{-- Stylesheets --}}
     <link rel="stylesheet" href="{{ asset_path('assets/css/app.css') }}" >
 
@@ -30,11 +34,7 @@
 
 <body id="body">
 
-    @include('partials.nav')
-
-    <div class="container mx-auto mt-2 sm:px-2 lg:px-4">
-        @yield('content')
-    </div>
+    @yield('content')
 
     @include('partials.footer')
 
