@@ -90,19 +90,6 @@ window.categorySelect = function () {
 
 /***/ }),
 
-/***/ "./resources/assets/sass/tinymce_post.scss":
-/*!*************************************************!*\
-  !*** ./resources/assets/sass/tinymce_post.scss ***!
-  \*************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
-
-
-/***/ }),
-
 /***/ "./resources/assets/sass/app.scss":
 /*!****************************************!*\
   !*** ./resources/assets/sass/app.scss ***!
@@ -203,8 +190,7 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/assets/js/admin/admin": 0,
-/******/ 			"assets/css/app": 0,
-/******/ 			"assets/css/tinymce/tinymce_post": 0
+/******/ 			"assets/css/app": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -254,9 +240,8 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["assets/css/app","assets/css/tinymce/tinymce_post"], () => (__webpack_require__("./resources/assets/js/admin/admin.js")))
-/******/ 	__webpack_require__.O(undefined, ["assets/css/app","assets/css/tinymce/tinymce_post"], () => (__webpack_require__("./resources/assets/sass/tinymce_post.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/app","assets/css/tinymce/tinymce_post"], () => (__webpack_require__("./resources/assets/sass/app.scss")))
+/******/ 	__webpack_require__.O(undefined, ["assets/css/app"], () => (__webpack_require__("./resources/assets/js/admin/admin.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["assets/css/app"], () => (__webpack_require__("./resources/assets/sass/app.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
