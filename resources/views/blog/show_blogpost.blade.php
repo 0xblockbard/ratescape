@@ -88,6 +88,6 @@
 @section('scripts')
 
     {{-- Lazy load images within article content --}}
-    <script src="{{ asset_path('/assets/js/post/contentLazyLoad.js') }}"></script>
+    {{-- <script src="{{ asset_path('/assets/js/post/contentLazyLoad.js') }}"></script> --}}
 
 @endsection

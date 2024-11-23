@@ -50,15 +50,10 @@ mix.js('resources/assets/js/admin/adminDefault.js', 'public/assets/js/admin');
 
 // Default JS Files
 mix.js('resources/assets/js/default/default.js', 'public/assets/js/default');
-mix.js('resources/assets/js/default/lazyLoadAssets.js', 'public/assets/js/default');
-mix.js('resources/assets/js/default/preloader.js', 'public/assets/js/default');
 mix.js('resources/assets/js/default/scrollToFixed.js', 'public/assets/js/default');
 
-// Pages JS Files
-mix.js('resources/assets/js/pages/home.js', 'public/assets/js/pages');
-
 // Post JS Files
-mix.js('resources/assets/js/post/contentLazyLoad.js', 'public/assets/js/post');
+// mix.js('resources/assets/js/post/contentLazyLoad.js', 'public/assets/js/post');
 
 // Delete JS Files
 // mix.js('resources/assets/js/delete/delete_items.js', 'public/assets/js/delete');

@@ -5,25 +5,25 @@
 @stop
 
 @section('description')
-    Rat Escape
+    RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom.
 @stop
 
 @section('meta')
-    <meta property="og:title" content="RatEscape" />
-    <meta property="og:description" content="RatEscape" />
+    <meta property="og:title" content="Rat Escape" />
+    <meta property="og:description" content="RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom." />
     <meta property="og:type"  content="website" />
     <meta property="og:url" content="{{ url('/') }}" />
 
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="414" />
-    {{--    <meta property="og:image" content="{{ config('app.CF_URL').'/assets/default/snapshots/contact.jpg' }}" />--}}
+    <meta property="og:image" content="{{ asset('storage/assets/rat-home-sc.png') }}" />
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@template">
-    <meta name="twitter:creator" content="@template">
-    <meta name="twitter:title" content="RatEscape">
-    <meta name="twitter:description" content="RatEscape">
-    {{--    <meta name="twitter:image" content="{{ config('app.CF_URL').'/assets/default/snapshots/contact.jpg' }}">--}}
+    <meta name="twitter:site" content="">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:title" content="Rat Escape">
+    <meta name="twitter:description" content="RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom.">
+    <meta name="twitter:image" content="{{ asset('storage/assets/rat-home-sc.png') }}">
 @stop
 
 @section('head')
@@ -197,6 +197,6 @@
 
 @section('scripts')
 
-    <script src="{{ asset('/assets/js/pages/home.js') }}"></script>
+
 
 @endsection
