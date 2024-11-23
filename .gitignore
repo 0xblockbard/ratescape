@@ -2,6 +2,9 @@
 /storage/*.key
 /storage/debugbar
 /public/assets/*
+!/public/build
+!/public/storage
+
 /vendor
 **/vendor
 .env
