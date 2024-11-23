@@ -28,7 +28,7 @@
 
 @section('head')
     {{-- Typed JS   --}}
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 @endsection
 
 @section('content')

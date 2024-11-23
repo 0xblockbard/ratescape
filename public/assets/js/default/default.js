@@ -540,13 +540,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 0);
   }
 });
-var typedIntro = new Typed('#typed-intro', {
+new Typed('#typed-intro', {
   strings: ['Do you want to...'],
   typeSpeed: 40,
   backSpeed: 0,
   startDelay: 500,
   backDelay: 1000,
   loop: false,
+  showCursor: false,
   onComplete: function onComplete() {
     new Typed('#typed-heading', {
       strings: ['Escape The <span class="text-yellow-300">Rat Race</span>?'],

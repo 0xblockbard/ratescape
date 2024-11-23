@@ -23,14 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-var typedIntro = new Typed('#typed-intro', {
+
+new Typed('#typed-intro', {
     strings: ['Do you want to...'],
     typeSpeed: 40,
     backSpeed: 0,
     startDelay: 500,
     backDelay: 1000,
     loop: false,
-
+    showCursor: false,
     onComplete: function () {
 
         new Typed('#typed-heading', {
