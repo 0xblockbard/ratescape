@@ -1,4 +1,4 @@
-@extends('default_no_sidebar')
+@extends('default')
 
 @section('content')
 

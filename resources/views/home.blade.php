@@ -61,12 +61,14 @@
 <img class="w-full h-16 opacity-70" src="{{ asset('storage/assets/cheese-maze-divider-2-sm.png') }}" />
 
 {{-- About Section --}}
-<div id="about" class="flex relative min-h-screen flex-col items-left justify-center px-10 text-center">
+<div class="flex relative min-h-screen flex-col items-left justify-center px-10 text-center">
 
     <div 
         class="absolute inset-0 bg-cover bg-center"  
         style="background-image: url('{{ asset('storage/assets/escape-rat-race-bg-2.png') }}'); opacity:0.3; z-index: -1;">
     </div>
+
+    <span id="about"></span>
 
     <div class="bg-gray-800 rounded-lg opacity-80 px-4 pt-4 pb-8 w-[45%] ml-12 border border-yellow-300">
         <h1 class="text-yellow-300 text-5xl mt-2 mb-4 font-bangers tracking-wide">
@@ -130,7 +132,7 @@
 {{-- Cheese Divider 3 --}}
 <img class="w-full h-16 opacity-70 transform -scale-x-100 " src="{{ asset('storage/assets/cheese-maze-divider-2-sm.png') }}" />
 
-{{-- Where to buy Section --}}
+{{-- How to buy Section --}}
 <div id="how" class="flex relative min-h-screen flex-col items-center justify-center px-10 text-center">
 
     <div 

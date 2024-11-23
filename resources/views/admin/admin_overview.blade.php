@@ -21,7 +21,7 @@
 
 {{--@endsection--}}
 
-{{--@extends('default_no_sidebar')--}}
+{{--@extends('default')--}}
 
 {{--@section('mobile_sidebar')--}}
 {{--    --}}{{-- Set admin default sidebar --}}
