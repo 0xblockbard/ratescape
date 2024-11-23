@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Chewy&family=Luckiest+Guy&family=Permanent+Marker&display=swap" rel="stylesheet">
 
     {{-- Stylesheets --}}
-    <link rel="stylesheet" href="{{ asset_path('assets/css/app.css') }}" >
+    <link rel="stylesheet" href="{{ asset('assets/css/app.css') }}" >
 
     {{-- Title --}}
     <title>@yield('title', 'Template')</title>
