@@ -23,7 +23,7 @@ Route::get('/'          , ['uses' => 'PagesController@home'])               ->na
 // Route::post('/contact'  , ['uses' => 'PagesController@submitContact'])      ->name('submit_contact_message');
 
 Route::get('/discord', function () {
-    return redirect('https://discord.gg/6mM7taSW');
+    return redirect('https://discord.com/invite/ycc');
 })->name('discord');
 
 Route::group(['middleware' => 'guest'], function () {

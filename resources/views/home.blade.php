@@ -103,13 +103,19 @@
 
     <span id="about"></span>
 
-    <div class="bg-gray-800 rounded-lg opacity-80 px-4 pt-4 pb-8 w-[45%] ml-12 border border-yellow-300">
+    <div class="bg-gray-800 rounded-lg opacity-80  mt-10 mb-10 px-4 pt-4 pb-8 w-[45%] ml-12 border border-yellow-300">
         <h1 class="text-yellow-300 text-5xl mt-2 mb-4 font-bangers tracking-wide">
             About
         </h1>
         
-        <p class="text-gray-200 text-lg max-w-2xl space-y-2 font-chewy tracking-wide">
-            RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom. Join the escape plan led by Rattus and turn your bags into squeaks of victory! 🚀 🐀
+        <p class="text-gray-200 text-lg max-w-2xl font-chewy tracking-wide">
+            RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom.
+        </p>
+        <p class="text-gray-200 text-lg max-w-2xl mt-4 font-chewy tracking-wide">
+            Join the escape plan led by Rattus, our leader. He was the first to escape.
+        </p>
+        <p class="text-gray-200 text-lg max-w-2xl mt-4 font-chewy tracking-wide">
+            Turn your bags into squeaks of victory! 🚀 🐀
         </p>
 
         <h2 class="text-yellow-300 text-3xl mt-8 mb-4 font-bangers tracking-widest">
@@ -208,7 +214,7 @@
             <div class="font-chewy text-gray-50">Swap SOLANA for $RAT</div>
         </div>
 
-        <h2 class="text-yellow-300 text-3xl mt-10 mb-4 font-bangers tracking-wide">
+        <h2 id="tokenomics" class="text-yellow-300 text-3xl mt-10 mb-4 font-bangers tracking-wide">
             Tokenomics
         </h1>
 
