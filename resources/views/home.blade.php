@@ -215,11 +215,16 @@
         <div class="flex flex-col rounded-md border-t border-yellow-300">
 
             <div class="flex flex-row w-full justify-between text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
-                <p class="flex">Contract Address: </p>
-                <p class="flex"><a class="hover:underline" href="https://dexscreener.com/solana/brnb8tqwwhpdwkvptpgjczzutevcdcwssj2amotfi1uo" target="_blank">3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump</a></p>
+                <p class="">Contract Address:</p>
+                <p class="w-[406px]"><a class="hover:underline" href="https://dexscreener.com/solana/brnb8tqwwhpdwkvptpgjczzutevcdcwssj2amotfi1uo" target="_blank">3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump</a></p>
             </div>
 
-            <div class="flex flex-row w-full justify-between">
+            <div class="flex flex-row w-full justify-between text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
+                <p class="">Liquidity Pool:</p>
+                <p class=""><a class="hover:underline" href="https://dexscreener.com/solana/brnb8tqwwhpdwkvptpgjczzutevcdcwssj2amotfi1uo" target="_blank">BrNb8tqwwhpdwkVPtPGjCzZuTevcDcWSsJ2AMotfi1uo</a></p>
+            </div>
+
+            {{-- <div class="flex flex-row w-full justify-between">
 
                 <div class="flex flex-row text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
                     <p class="flex">Locked Liquidity with Fair Launch (Creator holds only 2%)</p>
@@ -228,7 +233,7 @@
                 <div class="flex flex-row text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
                     <p class="flex">100% Community Driven</p>
                 </div>
-            </div>
+            </div> --}}
 
             <div class="flex flex-row w-full justify-between">
 
@@ -244,9 +249,9 @@
                     <p class="flex">Tax: 0</p>
                 </div>
 
-                <div class="flex flex-row text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
+                {{-- <div class="flex flex-row text-yellow-300 px-4 py-4 font-chewy tracking-widest"> 
                     <p class="flex">LP: BURNED</p>
-                </div>
+                </div> --}}
             </div>
 
         </div>

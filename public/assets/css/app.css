@@ -1751,6 +1751,24 @@ select {
 .w-screen {
   width: 100vw;
 }
+.w-32 {
+  width: 8rem;
+}
+.w-40 {
+  width: 10rem;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[401px\] {
+  width: 401px;
+}
+.w-\[401\] {
+  width: 401;
+}
+.w-\[406px\] {
+  width: 406px;
+}
 .min-w-0 {
   min-width: 0px;
 }
