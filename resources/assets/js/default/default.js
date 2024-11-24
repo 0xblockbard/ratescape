@@ -85,6 +85,11 @@ new Typed('#typed-intro', {
                                             loop: false,
                                             showCursor: false,
 
+                                            onComplete: function () {
+                                                // Add the fade-in class to .typed-socials
+                                                document.querySelector('.typed-socials').classList.add('fade-in');
+                                            }
+
                                         });
                                     },
                                 });

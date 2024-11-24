@@ -90,3 +90,12 @@ body:after {
 .typed-cursor {
     display: hidden;
 }
+
+.typed-socials {
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease-in-out; /* Smooth fade-in transition */
+} 
+
+.typed-socials.fade-in {
+    opacity: 1; /* Fully visible */
+}

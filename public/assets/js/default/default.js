@@ -589,7 +589,11 @@ new Typed('#typed-intro', {
                       backSpeed: 0,
                       startDelay: 500,
                       loop: false,
-                      showCursor: false
+                      showCursor: false,
+                      onComplete: function onComplete() {
+                        // Add the fade-in class to .typed-socials
+                        document.querySelector('.typed-socials').classList.add('fade-in');
+                      }
                     });
                   }
                 });
