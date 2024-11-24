@@ -36,7 +36,8 @@
 <div class="relative min-h-screen flex flex-col items-center justify-center text-center" style="position: relative;">
 
     <div 
-        class="absolute inset-0 bg-cover bg-center bg-pulse-opacity"  
+        id="home-bg"
+        class="absolute inset-0 bg-cover bg-center bg-pulse-opacity transition duration-300 ease-in-out"  
         style="background-image: url('{{ asset('storage/assets/escape-rat-race.png') }}'); z-index: -1;">
     </div>
 

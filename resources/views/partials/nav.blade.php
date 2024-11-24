@@ -62,9 +62,9 @@
                         </a>
                     </div>
                 
-                    {{-- Escape utton --}}
-                    <a href="https://pump.fun/coin/3vJenGaGsuKG5shPhi7rjnuy3MV6xjmBTGjYqYzXpump" target="_blank">
-                        <button type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-xl font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 hover:text-yellow-300 hover:border-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 transition duration-300 ease-in-out font-permanentMarket">
+                    {{-- Escape button --}}
+                    <a href="https://photon-sol.tinyastro.io/en/lp/BrNb8tqwwhpdwkVPtPGjCzZuTevcDcWSsJ2AMotfi1uo" target="_blank">
+                        <button id="escape-btn" type="button" class="relative inline-flex items-center px-4 py-2 border border-transparent text-xl font-medium rounded-md text-white bg-gray-800 shadow-sm hover:bg-gray-900 hover:text-yellow-300 hover:border-yellow-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 transition duration-300 ease-in-out font-permanentMarket">
                             <svg class="mr-2 h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4.519 20.008L21 20v-3.5a2 2 0 1 1 0-4V9H4.278"/><path d="m21 9l-9.385-4.992c-2.512.12-4.758 1.42-6.327 3.425C3.865 9.253 3 11.654 3 14.287c0 2.117.56 4.085 1.519 5.721M15 13v.01M8 13v.01M11 16v.01"/></g></svg>
                             <span>Escape</span>
                         </button>

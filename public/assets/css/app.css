@@ -1511,14 +1511,6 @@ select {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-}
 .-mr-20 {
   margin-right: -5rem;
 }
@@ -1530,6 +1522,9 @@ select {
 }
 .mb-1 {
   margin-bottom: 0.25rem;
+}
+.mb-10 {
+  margin-bottom: 2.5rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -1602,9 +1597,6 @@ select {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 .block {
   display: block;
@@ -1741,6 +1733,9 @@ select {
 .w-8 {
   width: 2rem;
 }
+.w-\[406px\] {
+  width: 406px;
+}
 .w-\[45\%\] {
   width: 45%;
 }
@@ -1761,24 +1756,6 @@ select {
 }
 .w-screen {
   width: 100vw;
-}
-.w-32 {
-  width: 8rem;
-}
-.w-40 {
-  width: 10rem;
-}
-.w-\[\] {
-  width: ;
-}
-.w-\[401px\] {
-  width: 401px;
-}
-.w-\[401\] {
-  width: 401;
-}
-.w-\[406px\] {
-  width: 406px;
 }
 .min-w-0 {
   min-width: 0px;
@@ -1974,11 +1951,6 @@ select {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
@@ -2661,10 +2633,6 @@ select {
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity, 1));
 }
-.text-yellow-50 {
-  --tw-text-opacity: 1;
-  color: rgb(254 252 232 / var(--tw-text-opacity, 1));
-}
 .placeholder-gray-400::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(156 163 175 / var(--tw-placeholder-opacity, 1));
@@ -2827,6 +2795,12 @@ body:after {
 }
 .bg-pulse-opacity {
   animation: foreboding-pulse-opacity 15s infinite;
+}
+
+.bg-no-pulse {
+  animation: none !important; /* Disable animation */
+  opacity: 0.05; /* Static darkened opacity */
+  transition: opacity 1s ease-in-out; /* Smooth transition */
 }
 
 .list-number {

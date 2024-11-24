@@ -20,7 +20,21 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             }
         }, 0);
-    }
+    };
+
+    const background = document.getElementById('home-bg');
+    const escapeButton = document.getElementById('escape-btn');
+
+    // Add hover event listeners
+    escapeButton.addEventListener('mouseenter', () => {
+        console.log('mouse enter bg')
+        background.classList.add('bg-no-pulse'); // Add class to darken background
+    });
+
+    escapeButton.addEventListener('mouseleave', () => {
+        console.log('mouse leave bg')
+        background.classList.remove('bg-no-pulse'); // Remove class when hover ends
+    });
 });
 
 

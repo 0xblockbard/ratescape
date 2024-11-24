@@ -539,6 +539,19 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }, 0);
   }
+  ;
+  var background = document.getElementById('home-bg');
+  var escapeButton = document.getElementById('escape-btn');
+
+  // Add hover event listeners
+  escapeButton.addEventListener('mouseenter', function () {
+    console.log('mouse enter bg');
+    background.classList.add('bg-no-pulse'); // Add class to darken background
+  });
+  escapeButton.addEventListener('mouseleave', function () {
+    console.log('mouse leave bg');
+    background.classList.remove('bg-no-pulse'); // Remove class when hover ends
+  });
 });
 new Typed('#typed-intro', {
   strings: ['Do you want to...'],

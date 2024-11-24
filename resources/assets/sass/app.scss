@@ -69,6 +69,12 @@ body:after {
     animation: foreboding-pulse-opacity 15s infinite;
 }
 
+.bg-no-pulse {
+    animation: none !important; /* Disable animation */
+    opacity: 0.05; /* Static darkened opacity */
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+}
+
 .list-number{
     background-color: #fde047;
     color: #111827;
