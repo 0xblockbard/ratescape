@@ -17,11 +17,14 @@ use Spatie\Browsershot\Browsershot;
 //Auth::routes();
 
 Route::get('/'          , ['uses' => 'PagesController@home'])               ->name('home');
-Route::get('/about'     , ['uses' => 'PagesController@about'])              ->name('about');
-Route::get('/blog'      , ['uses' => 'PagesController@blog'])               ->name('blog');
-Route::get('/contact'   , ['uses' => 'PagesController@contact'])            ->name('contact');
-Route::post('/contact'  , ['uses' => 'PagesController@submitContact'])      ->name('submit_contact_message');
+// Route::get('/about'     , ['uses' => 'PagesController@about'])              ->name('about');
+// Route::get('/blog'      , ['uses' => 'PagesController@blog'])               ->name('blog');
+// Route::get('/contact'   , ['uses' => 'PagesController@contact'])            ->name('contact');
+// Route::post('/contact'  , ['uses' => 'PagesController@submitContact'])      ->name('submit_contact_message');
 
+Route::get('/discord', function () {
+    return redirect('https://discord.gg/6mM7taSW');
+})->name('discord');
 
 Route::group(['middleware' => 'guest'], function () {
 

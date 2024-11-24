@@ -63,9 +63,6 @@ mix.js('resources/assets/js/default/scrollToFixed.js', 'public/assets/js/default
 // mix.js('resources/assets/js/modal/closeModal.js', 'public/assets/js/modal');
 
 
-// mix.js('resources/assets/js/app.js', 'public/js');
-mix.sass('resources/assets/sass/tinymce_post.scss', 'public/assets/css/tinymce');
-
 mix.sass('resources/assets/sass/app.scss', 'public/assets/css', {}, [
     tailwindcss('tailwind.config.js'),
 ]).options({

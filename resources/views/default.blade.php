@@ -20,10 +20,10 @@
     <link rel="stylesheet" href="{{ url('assets/css/app.css') }}" >
 
     {{-- Title --}}
-    <title>@yield('title', 'Template')</title>
+    <title>@yield('title', 'Rat Escape')</title>
 
     {{-- Meta --}}
-    <meta name="description" content="@yield('description')" />
+    <meta name="description" content="RAT is the ultimate memecoin for bag holders trapped in the rat race, offering nothing but a shot at freedom." />
     <meta property="og:site_name" content="Rat Escape" />
     <meta property="og:locale" content="en_US" />
     @yield('meta')

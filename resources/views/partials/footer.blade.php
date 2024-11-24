@@ -1,6 +1,6 @@
 
 
-<footer class="bg-gray-800">
+<footer class="bg-gray-800" style="background-color: #2B2B2B">
     <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 md:flex md:items-center md:justify-center lg:px-8">
         {{-- <div class="flex justify-center space-x-6 md:order-2"> --}}
 
